@@ -10,24 +10,28 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
 <style>
-html,body,h2,h3,h4,h5,h6 {font-family: "Quicksand", sans-serif;}
-.w3-sidebar {
-  z-index: 3;
-  width: 250px;
-  top: 61px;
-  bottom: 0;
-  height: inherit;
-}
-
-h1{
-    font-family: 'Quicksand'; 
-    color: #68B297;
+  html,body,h2,h3,h4,h5,h6 {font-family: "Quicksand", sans-serif;}
+  .w3-sidebar {
+    z-index: 3;
+    width: 250px;
+    top: 61px;
+    bottom: 0;
+    height: inherit;
   }
 
-p,pre{
-    font-family: 'Quicksand'; 
-    font-size:20px;
+  h1{
+      font-family: 'Quicksand'; 
+      color: #68B297;
+    }
+
+  p,pre{
+      font-family: 'Quicksand'; 
+      font-size:20px;
+    }  
+  hr.solid {
+  border-top: 1px solid #bbb;
   }  
+
 </style>
 
 
@@ -128,22 +132,25 @@ p,pre{
       <br><br>
 </div>
 
-<div class = "card">    
+    
   <div class="w3-row" id = "L'essential">
+    <div class = "card">
      <h1>L'essential</h1>
+     <hr class="solid">
       <pre><strong><u>Tarifs et remboursements</u>                    <u>Moyens de paiement</u></strong>
 Conventionné                                         Chèques, espèces et cartes bancaires
 Carte Vitale acceptée
 Tiers payant : Sécurité Sociale
 <a href = "#Tarifs"><font class="w3-text-blue">Voir les tarifs</font></a>
-
+<hr class="solid">
 <strong><u>Expertises, actes et symptômes</u></strong>
 <ul><li>Pédicurie</li><li>Orthoplastie</li><li>Podologique</li><li>Orthopédiques</li><u id="Carte"></u>
 </ul></pre>
-<div class="dl-profile-skill-chip">Pédicurie</div>
+<!--<div class="dl-profile-skill-chip">Pédicurie</div>
 <div class="dl-profile-skill-chip">Orthoplastie</div>
 <div class="dl-profile-skill-chip">Bilan podologique</div>
 <div class="dl-profile-skill-chip">Semelles orthopédiques</div>
+-->
   </div>
 </div>
 
@@ -154,39 +161,38 @@ Tiers payant : Sécurité Sociale
     <iframe style = "float:right" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2869.456580766978!2d4.413013714973136!3d44.01195857911063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b5b55f73a6657b%3A0x350f0b67015b7578!2s4%20Avenue%20Georges%20Chauvin%2C%2030700%20Uz%C3%A8s%2C%20France!5e0!3m2!1sen!2sus!4v1585288494292!5m2!1sen!2sus" width="auto" height="400" frameborder="0" style="border:0;" aria-hidden="false" tabindex="0"></iframe>
     <div class="w3-twothird w3-container">
       <h1>Carte et Informations d'accès</h1>
+      <hr class="solid">
       <pre>4 Avenue Georges Chauvin, 30700 Uzès
 
 <strong><u>Informations pratiques</u></strong>
 1er étage avec ascenseur
 Accès handicapé
-Parking gratuit<br><br></pre>
+Parking gratuit<br><br id = "Presentation"></pre>
     </div>
   </div>
 </div>
  
 <!-- Présentation du professionnel de santé -->
 <div class = "card">
-  <div class="w3-row w3-padding-64" id = "Presentation">
-    <div class="w3-twothird w3-container">
+  <div class="w3-row">
+    <div class="w3 w3-container">
       <h1>Présentation du professionnel de santé</h1>
+      <hr class="solid">
       <p>Le pédicure-podologue soigne les pathologies de la peau et des ongles du pied. Il réalise aussi des semelles orthopédiques et s'occupe de la rééducation des pieds et de l'équilibre du patient suite à une opération.
         <br><br> 
         <strong><u>Langues parlées</u></strong>
-        <br><br>
-        Français
-        <br><br> 
-        <strong><u>Formations</u></strong>
-        <br><br>
-        2014: Posturologie - Connaissance et évolution Noisy le Grand <br><br>1993: Pedicure Podologue - Institut de Kinésithérapie Podologie Orthopédie (IKPO), Lille
-        <br><br> 
-        <strong><u>Exercices en cabinet</u></strong>
-        <br><br>
-        1993 - 2012: Aire sur la lys
-        <br><br> 
-        <strong><u>Prix et distinctions</u></strong>
-        <br><br>
-        2017: Formation de ktape - Ktape<u id = "Horairres"></u>
-      </p>
+        <br>
+        Français</p>
+      <hr class="solid">
+      <p><strong><u>Diplômes nationaux et universitaires (et autres formations)</u></strong></p>
+      
+      <p>2014: Posturologie - Connaissance et évolution Noisy le Grand </p>
+      <p>1993: Pedicure Podologue - Institut de Kinésithérapie Podologie Orthopédie (IKPO), Lille</p>
+        
+      <p><strong><u>Exercices en cabinet</u></strong></p>
+      <p>1993 - 2012: Aire sur la lys</p> 
+      <p><strong><u>Prix et distinctions</u></strong></p>        
+      <p>2017: Formation de ktape - Ktape<u id = "Horairres"></u></p>
     </div>
   </div>
 </div>
@@ -194,8 +200,9 @@ Parking gratuit<br><br></pre>
 <!-- Horairres et Contacts -->
 <div class = "card"> 
   <div  class="w3-row"> 
-    <div class="w3-twothird w3-container">
+    <div class="w3 w3-container">
       <h1>Horairres et Contacts</h1>
+      <hr class="solid">
       <pre><strong><u>Ouverture du secrétariat</u>                                         <u>Contact d'urgence</u></strong>
 Lundi:      08h30 - 12h00, 13h30 - 18h45                   En cas d’urgence, contactez le 15 (Samu)
 Mardi:      08h30 - 12h00, 13h30 - 18h45
@@ -210,17 +217,26 @@ Oui</pre>
 
 <!-- Tarifs -->
 <div class = "card">
-  <div class="w3-row w3-padding">
+  <div class="w3-row">
     <div class=" w3-container">
       <h1>Tarifs</h1>
+      <hr class="solid">
       <pre>Soins de pédicurie                                                                33€</pre>
+      <hr class="solid">
       <pre>Bilan podologique                                                                 35€</pre>
+      <hr class="solid">
       <pre>Semelles orthopédiques                                                      135€</pre>
+      <hr class="solid">
       <pre>Orthoplastie                                                               20€ à 40€</pre>
+      <hr class="solid">
       <pre>Ongle incarné                                                                      33€</pre>
+      <hr class="solid">
       <pre>Première consultation de podologie                                         0€</pre>
+      <hr class="solid">
       <pre>Consultation de suivi de podologie                                          0€</pre>
+      <hr class="solid">
       <pre>Soin de pédicurie à domicile                                        35€ à 42€</pre>
+      <hr class="solid">
       <pre>Soin pédicurie diabetique grade 2 et 3                                   27€</pre>
       <br>
       <p>Ces honoraires vous sont communiqués à titre indicatif par le praticien. Ils peuvent varier selon le type de soins finalement réalisés en cabinet, le nombre de consultations et les actes additionnels nécessaires. En cas de dépassement des tarifs, le praticien doit en avertir préalablement le patient.</p>
