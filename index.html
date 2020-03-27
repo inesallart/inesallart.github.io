@@ -8,8 +8,9 @@
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
 <style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+html,body,h2,h3,h4,h5,h6 {font-family: "Quicksand", sans-serif;}
 .w3-sidebar {
   z-index: 3;
   width: 250px;
@@ -18,8 +19,22 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   height: inherit;
 }
 </style>
-<style>
 
+<style>
+  h1{
+    font-family: 'Quicksand'; 
+    color: #68B297;
+  }
+</style>
+
+<style>
+  p,pre{
+    font-family: 'Quicksand'; 
+    font-size:20px;
+  }
+</style>
+
+<style>
   .butter{
   /*Step 2: Basic Button Styles*/
   display: block;
@@ -54,7 +69,29 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   text-decoration: none;
   }
 </style>
-<body>
+<style>
+  .card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 2px;
+  border-radius: 5px;
+  background-color:#FFFFFF; 
+  margin-top:15px; margin-left:auto;
+  margin-right:auto;width:95%;
+  height:90%;
+  //border:1px solid #68B297;
+  -moz-border-radius:8px;
+  border-radius:8px;"
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+</style>
+
+<body style="background-color:#F0F0F0">
 
 <!-- Navbar -->
 <div class="w3-top">
@@ -85,32 +122,35 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 <img src = "https://res.cloudinary.com/doctolib/image/upload/w_1024,h_700,c_limit/t9nynnddwyc3rv7t9y76.jpg" width = 550/>
  <img src = "https://res.cloudinary.com/doctolib/image/upload/w_1024,h_700,c_limit/qzonenwkeewsntwln9yh.jpg" width = 400/>
 
-  <div class="w3-row" id = "L'essential">
-    <div class="w3-twothird w3-container">
+<div class="w3-twothird w3-container">
       <!--button to schedule appointments-->
       <br><br>
-      <a href="https://10to8.com/book/uxfmdqipsxbawwmvym/" class = "butter"  title="Prenez votre rendez-vous en ligne">Prenez votre rendez-vous en ligne</a>
+      <a style = "font-family: Quicksand" href="https://10to8.com/book/uxfmdqipsxbawwmvym/" class = "butter"  title="Prenez votre rendez-vous en ligne">Prenez votre rendez-vous en ligne</a>
       <br><br>
-      
-     <h1 style="color:#68B297">L'essential</h1>
-      <pre style = "font-family:Verdana; font-size:20px;"><strong><u>Tarifs et remboursements</u>                    <u>Moyens de paiement</u></strong>
+</div>
+
+<div class = "card">    
+  <div class="w3-row" id = "L'essential">
+     <h1>L'essential</h1>
+      <pre><strong><u>Tarifs et remboursements</u>                    <u>Moyens de paiement</u></strong>
 Conventionné                                         Chèques, espèces et cartes bancaires
 Carte Vitale acceptée
 Tiers payant : Sécurité Sociale
 <a href = "#Tarifs"><font class="w3-text-blue">Voir les tarifs</font></a>
 
-
 <strong><u>Expertises, actes et symptômes</u></strong>
 <ul><li>Pédicurie</li><li>Orthoplastie</li><li>Podologique</li><li>Orthopédiques</li><u id="Carte"></u>
 </ul></pre>
-    </div>
   </div>
+</div>
+
 
 <!-- Carte -->
+<div class = "card">
   <div class="w3-row">
     <div class="w3-twothird w3-container">
-      <h1 style="color:#68B297">Carte et Informations d'accès</h1>
-      <pre style = "font-family:Verdana; font-size:20px;">4 Avenue Georges Chauvin, 30700 Uzès
+      <h1>Carte et Informations d'accès</h1>
+      <pre>4 Avenue Georges Chauvin, 30700 Uzès
 
 <strong><u>Informations pratiques</u></strong>
 1er étage avec ascenseur
@@ -118,42 +158,45 @@ Accès handicapé
 Parking gratuit<br><br></pre>
     </div>
   </div>
+</div>
 <!-- picturees of storefront and map-->
       <img src = "https://res.cloudinary.com/doctolib/image/upload/w_1024,h_700,c_limit/oymgsq0l9xr0bhhlcxz8.jpg" width = 600/>
       <img src = "https://maps.googleapis.com/maps/api/staticmap?center=44.0143524,4.41460689999997&channel=desktop&client=gme-doctolib&maptype=roadmap&markers=color:0xFEC400%7C44.0143524,4.41460689999997&scale=1&sensor=false&size=324x500&zoom=15&signature=cJXOd17SSlS6WHt6_i6izWNj2o0=" height = 420 width = 350/>
 
 
 <!-- Présentation du professionnel de santé -->
+<div class = "card">
   <div class="w3-row w3-padding-64" id = "Presentation">
     <div class="w3-twothird w3-container">
-      <h1 style="color:#68B297">Présentation du professionnel de santé</h1>
-      <p style = "font-family:Verdana; font-size:20px;">Le pédicure-podologue soigne les pathologies de la peau et des ongles du pied. Il réalise aussi des semelles orthopédiques et s'occupe de la rééducation des pieds et de l'équilibre du patient suite à une opération.
+      <h1>Présentation du professionnel de santé</h1>
+      <p>Le pédicure-podologue soigne les pathologies de la peau et des ongles du pied. Il réalise aussi des semelles orthopédiques et s'occupe de la rééducation des pieds et de l'équilibre du patient suite à une opération.
         <br><br> 
-        <font style="font-size:20px;"><strong><u>Langues parlées</u></strong></font>
+        <strong><u>Langues parlées</u></strong>
         <br><br>
         Français
         <br><br> 
-        <font style="font-size:20px;"><strong><u>Formations</u></strong></font>
+        <strong><u>Formations</u></strong>
         <br><br>
         2014: Posturologie - Connaissance et évolution Noisy le Grand <br><br>1993: Pedicure Podologue - Institut de Kinésithérapie Podologie Orthopédie (IKPO), Lille
         <br><br> 
-        <font style="font-size:20px;"><strong><u>Exercices en cabinet</u></strong></font>
+        <strong><u>Exercices en cabinet</u></strong>
         <br><br>
         1993 - 2012: Aire sur la lys
         <br><br> 
-        <font style="font-size:20px;"><strong><u>Prix et distinctions</u></strong></font>
+        <strong><u>Prix et distinctions</u></strong>
         <br><br>
-        2017: Formation de ktape - Ktape<u></u>
+        2017: Formation de ktape - Ktape<u id = "Horairres"></u>
       </p>
     </div>
   </div>
+</div>
 
 <!-- Horairres et Contacts -->
-  
-  <div id = "Horairres" class="w3-row"> 
+<div class = "card"> 
+  <div  class="w3-row"> 
     <div class="w3-twothird w3-container">
-      <h1 style = "font-family:Verdana; color:#68B297">Horairres et Contacts</h1>
-      <pre style = "font-family:Verdana; font-size:20px;"><strong><u>Ouverture du secrétariat</u>                                         <u>Contact d'urgence</u></strong>
+      <h1>Horairres et Contacts</h1>
+      <pre><strong><u>Ouverture du secrétariat</u>                                         <u>Contact d'urgence</u></strong>
 Lundi:      08h30 - 12h00, 13h30 - 18h45                   En cas d’urgence, contactez le 15 (Samu)
 Mardi:      08h30 - 12h00, 13h30 - 18h45
 Mercredi:  08h30 - 12h00, 13h30 - 18h45
@@ -163,25 +206,27 @@ Jeudi:       08h30 - 12h00, 13h30 - 18h45
 Oui</pre>
     </div>    
   </div>
+</div>
 
 <!-- Tarifs -->
-
-    <div class="w3-row w3-padding">
+<div class = "card">
+  <div class="w3-row w3-padding">
     <div class=" w3-container">
-      <h1 style = "font-family:Verdana; color:#68B297">Tarifs</h1>
-      <pre style = "font-family:Verdana; font-size:20px;">Soins de pédicurie                                                                33€</pre>
-      <pre style = "font-family:Verdana; font-size:20px;">Bilan podologique                                                                 35€</pre>
-      <pre style = "font-family:Verdana; font-size:20px;">Semelles orthopédiques                                                      135€</pre>
-      <pre style = "font-family:Verdana; font-size:20px;">Orthoplastie                                                               20€ à 40€</pre>
-      <pre style = "font-family:Verdana; font-size:20px;">Ongle incarné                                                                      33€</pre>
-      <pre style = "font-family:Verdana; font-size:20px;">Première consultation de podologie                                         0€</pre>
-      <pre style = "font-family:Verdana; font-size:20px;">Consultation de suivi de podologie                                          0€</pre>
-      <pre style = "font-family:Verdana; font-size:20px;">Soin de pédicurie à domicile                                        35€ à 42€</pre>
-      <pre style = "font-family:Verdana; font-size:20px;">Soin pédicurie diabetique grade 2 et 3                                   27€</pre>
+      <h1>Tarifs</h1>
+      <pre>Soins de pédicurie                                                                33€</pre>
+      <pre>Bilan podologique                                                                 35€</pre>
+      <pre>Semelles orthopédiques                                                      135€</pre>
+      <pre>Orthoplastie                                                               20€ à 40€</pre>
+      <pre>Ongle incarné                                                                      33€</pre>
+      <pre>Première consultation de podologie                                         0€</pre>
+      <pre>Consultation de suivi de podologie                                          0€</pre>
+      <pre>Soin de pédicurie à domicile                                        35€ à 42€</pre>
+      <pre>Soin pédicurie diabetique grade 2 et 3                                   27€</pre>
       <br>
       <p>Ces honoraires vous sont communiqués à titre indicatif par le praticien. Ils peuvent varier selon le type de soins finalement réalisés en cabinet, le nombre de consultations et les actes additionnels nécessaires. En cas de dépassement des tarifs, le praticien doit en avertir préalablement le patient.</p>
     </div>
   </div>
+</div>
 
   <footer id="myFooter">
     <div class="w3-container w3-theme-l2 w3-padding-32">
