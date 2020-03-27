@@ -5,112 +5,113 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
-<script src="https://kit.fontawesome.com/e000eb60f0.js" crossorigin="anonymous"></script>
-<style>
-  html,body,h2,h3,h4,h5,h6 {font-family: "Quicksand", sans-serif;}
-  .w3-sidebar {
-    z-index: 3;
-    width: 250px;
-    top: 61px;
-    bottom: 0;
-    height: inherit;
-  }
-
-  img {
-  border-radius: 8px;
-}
-
-  h1{
-      font-family: 'Quicksand'; 
-      color: #68B297;
-      font-weight: bold;
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+  <script src="https://kit.fontawesome.com/e000eb60f0.js" crossorigin="anonymous"></script>
+  <style>
+    html,body,h2,h3,h4,h5,h6 {font-family: "Quicksand", sans-serif;}
+    .w3-sidebar {
+      z-index: 3;
+      width: 250px;
+      top: 61px;
+      bottom: 0;
+      height: inherit;
     }
 
-  p,pre{
-      font-family: 'Quicksand'; 
-      font-size:20px;
+    img {
+      border-radius: 8px;
+  }
+
+    h1{
+        font-family: 'Quicksand'; 
+        color: #68B297;
+        font-weight: bold;
+      }
+
+    p,pre{
+        font-family: 'Quicksand'; 
+        font-size:20px;
+      }
+
+    ul,il{
+        font-family: 'Quicksand'; 
+        font-size:20px;
+      }  
+
+    hr.solid {
+      border-top: 1px solid #bbb;
+    } 
+
+    .span1{
+      padding:5px;
+      background-color: #F0F0F0;
+      border-radius: 8px;
     }
-  ul,il{
-      font-family: 'Quicksand'; 
-      font-size:20px;
+
+  </style>
+
+
+  <style>
+    .butter{
+      /*Step 2: Basic Button Styles*/
+      display: block;
+      background:#68B297;
+      border: 2px solid rgba(33, 68, 72, 0.59);
+      
+      /*Step 3: Text Styles*/
+      color: rgb(253, 251, 251);
+      text-align: center;
+      font: bold 3.2em/50px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+
+      background: -webkit-linear-gradient(top, #68B297, #68B297);
+      background: -moz-linear-gradient(top, #68B297, #68B297);
+      background: -o-linear-gradient(top, #68B297, #68B297);
+      background: -ms-linear-gradient(top, #68B297, #68B297);
+      background: linear-gradient(top, #68B297, #68B297);
+      
+      -webkit-border-radius: 50px;
+      -khtml-border-radius: 50px;
+      -moz-border-radius: 50px;
+      border-radius: 50px;
+      
+      -webkit-box-shadow: 0 8px 0 #1b383b;
+      -moz-box-shadow: 0 8px 0 #1b383b;
+      box-shadow: 0 8px 0 #1b383b;
+      
+      text-shadow: 0 2px 2px rgba(253, 252, 252, 0.2);
+    }
     
-    }  
-  hr.solid {
-  border-top: 1px solid #bbb;
-  }  
-  .span1{
-    padding:5px;
-    background-color: #F0F0F0;
-    border-radius: 8px;
-    
+    /*Step 3: Link Styling*/
+    a.butter {
+      text-decoration: none;
+    }
+  </style>
+
+  <style>
+    .card {
+      /* Add shadows to create the "card" effect */
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+      padding: 2px;
+      border-radius: 5px;
+      background-color:#FFFFFF; 
+      margin-top:15px; 
+      //margin-left:auto;
+      margin-right:auto;
+      width:95%;
+      height:90%;
+      //border:1px solid #68B297;
+      -moz-border-radius:8px;
+      border-radius:8px;"
   }
 
-</style>
-
-
-<style>
-  .butter{
-  /*Step 2: Basic Button Styles*/
-  display: block;
-  background:#68B297;
-  border: 2px solid rgba(33, 68, 72, 0.59);
-  
-  /*Step 3: Text Styles*/
-  color: rgb(253, 251, 251);
-  text-align: center;
-  font: bold 3.2em/50px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-
-  background: -webkit-linear-gradient(top, #68B297, #68B297);
-  background: -moz-linear-gradient(top, #68B297, #68B297);
-  background: -o-linear-gradient(top, #68B297, #68B297);
-  background: -ms-linear-gradient(top, #68B297, #68B297);
-  background: linear-gradient(top, #68B297, #68B297);
-  
-  -webkit-border-radius: 50px;
-  -khtml-border-radius: 50px;
-  -moz-border-radius: 50px;
-  border-radius: 50px;
-  
-  -webkit-box-shadow: 0 8px 0 #1b383b;
-  -moz-box-shadow: 0 8px 0 #1b383b;
-  box-shadow: 0 8px 0 #1b383b;
-  
-  text-shadow: 0 2px 2px rgba(253, 252, 252, 0.2);
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
   }
-  
-  /*Step 3: Link Styling*/
-  a.butter {
-  text-decoration: none;
-  }
-</style>
-
-<style>
-  .card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  padding: 2px;
-  border-radius: 5px;
-  background-color:#FFFFFF; 
-  margin-top:15px; 
-  //margin-left:auto;
-  margin-right:auto;
-  width:95%;
-  height:90%;
-  //border:1px solid #68B297;
-  -moz-border-radius:8px;
-  border-radius:8px;"
-}
-
-/* Add some padding inside the card container */
-.container {
-  padding: 2px 16px;
-}
 </style>
 </head>
 
@@ -151,10 +152,10 @@
 <a style = "font-family: Quicksand; font-size:50px" href="https://10to8.com/book/uxfmdqipsxbawwmvym/" class = "butter"  title="Prenez votre rendez-vous en ligne">Prenez votre rendez-vous en ligne</a>
 <br id = "L'essential"><br>
 
-
   <div class = "card">  
     <div class="w3-row" >
       <div class="w3 w3-container">
+
         <h1>L'essential</h1>
         <hr class="solid">     
         <p><strong><i class="fas fa-euro-sign"></i>&nbsp;&nbsp;&nbsp;&nbsp;Tarifs et remboursements<span style = "float:right;margin-right:150px"><i class="far fa-credit-card"></i>&nbsp;&nbsp;Moyens de paiement</span></strong></p>   
@@ -167,20 +168,14 @@
         <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <a href = "#Tarifs"><font class="w3-text-blue">Voir les tarifs</font></a></p>
         
-
-<hr class="solid">
-<pre><strong><i class="fas fa-microscope"></i>  Expertises, actes et symptômes</strong></pre>
-<ul><span class = "span1" style = "margin:10px">Pédicurie</span>
-<span class = "span1" style = "margin:10px">Orthoplastie</span>
-<span class = "span1" style = "margin:10px">Podologique</span>
-<span class = "span1" style = "margin:10px">Orthopédiques</span>
-<u id="Carte"></u>
-</ul>
-<!--<div class="dl-profile-skill-chip">Pédicurie</div>
-<div class="dl-profile-skill-chip">Orthoplastie</div>
-<div class="dl-profile-skill-chip">Bilan podologique</div>
-<div class="dl-profile-skill-chip">Semelles orthopédiques</div>
--->
+        <hr class="solid">
+        <pre><strong><i class="fas fa-microscope"></i>  Expertises, actes et symptômes</strong></pre>
+        <ul><span class = "span1" style = "margin:10px">Pédicurie</span>
+        <span class = "span1" style = "margin:10px">Orthoplastie</span>
+        <span class = "span1" style = "margin:10px">Podologique</span>
+        <span class = "span1" style = "margin:10px">Orthopédiques</span>
+        <u id="Carte"></u>
+        </ul>
       </div>
   </div>
 </div>
@@ -193,12 +188,13 @@
     <div class="w3-twothird w3-container">
       <h1>Carte et Informations d'accès</h1>
       <hr class="solid">
-      <pre>4 Avenue Georges Chauvin, 30700 Uzès
+      <p>4 Avenue Georges Chauvin, 30700 Uzès</p>
 
-<strong><u>Informations pratiques</u></strong>
-1er étage avec ascenseur
-Accès handicapé
-Parking gratuit<br><br id = "Presentation"></pre>
+      <p><strong><u>Informations pratiques</u></strong>
+      <br>1er étage avec ascenseur
+      <br>Accès handicapé
+      <br>Parking gratuit
+      <br><br id = "Presentation"></p>
     </div>
   </div>
 </div>
@@ -210,10 +206,10 @@ Parking gratuit<br><br id = "Presentation"></pre>
       <h1>Présentation du professionnel de santé</h1>
       <hr class="solid">
       <p>Le pédicure-podologue soigne les pathologies de la peau et des ongles du pied. Il réalise aussi des semelles orthopédiques et s'occupe de la rééducation des pieds et de l'équilibre du patient suite à une opération.
-        <br><br> 
-        <strong><u>Langues parlées</u></strong>
-        <br>
-        Français</p>
+      <br><br> 
+      <strong><u>Langues parlées</u></strong>
+      <br>
+      Français</p>
       <hr class="solid">
       
       <p><i class="fas fa-school"></i><strong>&nbsp;&nbsp;
