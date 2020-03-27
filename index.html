@@ -4,11 +4,13 @@
 <!-- hello, taking a closer look at my code? have fun! ask me any questions and i can explain my choices-->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+<script src="https://kit.fontawesome.com/e000eb60f0.js" crossorigin="anonymous"></script>
 <style>
   html,body,h2,h3,h4,h5,h6 {font-family: "Quicksand", sans-serif;}
   .w3-sidebar {
@@ -19,14 +21,20 @@
     height: inherit;
   }
 
+  img {
+  border-radius: 8px;
+}
+
   h1{
       font-family: 'Quicksand'; 
       color: #68B297;
+      font-weight: bold;
     }
 
   p,pre{
       font-family: 'Quicksand'; 
       font-size:20px;
+      
     }  
   hr.solid {
   border-top: 1px solid #bbb;
@@ -79,7 +87,8 @@
   padding: 2px;
   border-radius: 5px;
   background-color:#FFFFFF; 
-  margin-top:15px; margin-left:auto;
+  margin-top:15px; 
+  //margin-left:auto;
   margin-right:auto;
   width:95%;
   height:90%;
@@ -93,6 +102,7 @@
   padding: 2px 16px;
 }
 </style>
+</head>
 
 <body style="background-color:#F0F0F0">
 
@@ -123,7 +133,7 @@
 <div class="w3-main" style="margin-left:250px">
   <!-- picturees of Ines and Logo-->
 <img src = "https://res.cloudinary.com/doctolib/image/upload/w_1024,h_700,c_limit/t9nynnddwyc3rv7t9y76.jpg" width = 550/>
- <img src = "https://res.cloudinary.com/doctolib/image/upload/w_1024,h_700,c_limit/qzonenwkeewsntwln9yh.jpg" width = 400/>
+ <img src = "https://res.cloudinary.com/doctolib/image/upload/w_1024,h_700,c_limit/qzonenwkeewsntwln9yh.jpg" height = 410 width = 400/>
 
 <div class="w3-twothird w3-container">
       <!--button to schedule appointments-->
@@ -137,12 +147,15 @@
     <div class = "card">
      <h1>L'essential</h1>
      <hr class="solid">
+     <i class="fas fa-euro-sign"></i>
+     
       <pre><strong><u>Tarifs et remboursements</u>                    <u>Moyens de paiement</u></strong>
 Conventionné                                         Chèques, espèces et cartes bancaires
 Carte Vitale acceptée
 Tiers payant : Sécurité Sociale
 <a href = "#Tarifs"><font class="w3-text-blue">Voir les tarifs</font></a>
 <hr class="solid">
+<i class="fas fa-microscope"></i>
 <strong><u>Expertises, actes et symptômes</u></strong>
 <ul><li>Pédicurie</li><li>Orthoplastie</li><li>Podologique</li><li>Orthopédiques</li><u id="Carte"></u>
 </ul></pre>
