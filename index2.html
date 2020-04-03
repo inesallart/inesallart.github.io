@@ -73,6 +73,7 @@
       
       margin-left:auto;
       margin-right:auto;
+      width:95%;
 
       background: -webkit-linear-gradient(top, #68B297, #68B297);
       background: -moz-linear-gradient(top, #68B297, #68B297);
@@ -219,9 +220,9 @@
 <div class = "card">
   <div class="w3-row">
     <div class="w3 w3-container">
-      <h1><span style="float:right;"><i style = "color: #000000" class="fas fa-plus"></i></span>Présentation du professionnel de santé</h1>
+      <h1><span style="float:right";><i onclick = "Add()"; style = "color: #000000" class="fas fa-plus"></i></span>Présentation du professionnel de santé</h1>
       <hr class="solid">
-      <div>
+      <div id = "pres" style = "display = hidden">
         <p>Le pédicure-podologue soigne les pathologies de la peau et des ongles du pied. Il réalise aussi des semelles orthopédiques et s'occupe de la rééducation des pieds et de l'équilibre du patient suite à une opération.
         <br><br> 
         <strong><u>Langues parlées</u></strong>
@@ -345,6 +346,13 @@ function w3_close() {
   mySidebar.style.display = "none";
   overlayBg.style.display = "none";
 }
+</script>
+
+<script type="text/javascript"> 
+        document.getElementById("pres").onclick = add() { 
+  
+            document.getElementById("pres").style.display = "inline"; 
+        } 
 </script>
 
 </body>
