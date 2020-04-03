@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="fr">
+<title>Inès Allart Website</title>
+<!-- hello, taking a closer look at my code? have fun! ask me any questions and i can explain my choices-->
+<meta charset="UTF-8">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+  <script src="https://kit.fontawesome.com/e000eb60f0.js" crossorigin="anonymous"></script>
+  <style>
+    html,body,h2,h3,h4,h5,h6 {font-family: "Quicksand", sans-serif;}
+    .w3-sidebar {
+      z-index: 3;
+      width: 250px;
+      top: 61px;
+      bottom: 0;
+      height: inherit;
+    }
+
+    img {
+      border-radius: 8px;
+  }
+
+    h1{
+        font-family: 'Quicksand'; 
+        color: #68B297;
+        font-weight: bold;
+      }
+
+    p,pre{
+        font-family: 'Quicksand'; 
+        font-size:20px;
+      }
+
+    ul,il{
+        font-family: 'Quicksand'; 
+        font-size:20px;
+      }  
+
+    hr.solid {
+      border-top: 1px solid #bbb;
+    } 
+
+    .span1{
+      padding:5px;
+      background-color: #F0F0F0;
+      border-radius: 8px;
+    }
+
+  </style>
+
+
+  <style>
+    .butter{
+      /*Step 2: Basic Button Styles*/
+      display: block;
+      background:#68B297;
+      border: 2px solid rgba(33, 68, 72, 0.59);
+      
+      /*Step 3: Text Styles*/
+      color: rgb(253, 251, 251);
+      text-align: center;
+      font: bold 3.2em/50px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+
+      background: -webkit-linear-gradient(top, #68B297, #68B297);
+      background: -moz-linear-gradient(top, #68B297, #68B297);
+      background: -o-linear-gradient(top, #68B297, #68B297);
+      background: -ms-linear-gradient(top, #68B297, #68B297);
+      background: linear-gradient(top, #68B297, #68B297);
+      
+      -webkit-border-radius: 50px;
+      -khtml-border-radius: 50px;
+      -moz-border-radius: 50px;
+      border-radius: 50px;
+      
+      -webkit-box-shadow: 0 8px 0 #1b383b;
+      -moz-box-shadow: 0 8px 0 #1b383b;
+      box-shadow: 0 8px 0 #1b383b;
+      
+      text-shadow: 0 2px 2px rgba(253, 252, 252, 0.2);
+    }
+    
+    /*Step 3: Link Styling*/
+    a.butter {
+      text-decoration: none;
+    }
+  </style>
+
+  <style>
+    .card {
+      /* Add shadows to create the "card" effect */
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+      padding: 2px;
+      border-radius: 5px;
+      background-color:#FFFFFF; 
+      margin-top:15px; 
+      //margin-left:auto;
+      margin-right:auto;
+      width:95%;
+      height:90%;
+      //border:1px solid #68B297;
+      -moz-border-radius:8px;
+      border-radius:8px;"
+  }
+
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+</style>
+</head>
+
+<body style="background-color:#F0F0F0">
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a class="w3-bar-item w3-button w3-theme-l1" style = "font-size:30px;">Inès Allart: Pédicure-Podologue</a>
+  </div>
+</div>
+
+
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <h4 class="w3-bar-item"><b>Navigation</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#L'essential">L'essential</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#Carte">Carte</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#Presentation">Presentation</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#Horairres">Horairres</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#Tarifs">Tarifs</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+  <!-- picturees of Ines and Logo-->
+
+
+
+<!--button to schedule appointments-->
+<br><br>
+<a style = "font-family: Quicksand; font-size:50px" href="https://10to8.com/book/uxfmdqipsxbawwmvym/" class = "butter"  title="Prenez votre rendez-vous en ligne">Prenez votre rendez-vous en ligne</a>
+<br id = "L'essential"><br>
+
+  <div class = "card">  
+    <div class="w3-row" >
+      <div class="w3 w3-container">
+
+        <h1>L'essential</h1>
+        <hr class="solid">     
+        <p><strong><i class="fas fa-euro-sign"></i>&nbsp;&nbsp;&nbsp;&nbsp;Tarifs et remboursements<span style = "float:right;margin-right:150px"><i class="far fa-credit-card"></i>&nbsp;&nbsp;Moyens de paiement</span></strong></p>   
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Conventionné<span style = "float:right">Chèques, espèces et cartes bancaires</span>                                
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Carte Vitale acceptée
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Tiers payant : Sécurité Sociale
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href = "#Tarifs"><font class="w3-text-blue">Voir les tarifs</font></a></p>
+        
+        <hr class="solid">
+        <pre><strong><i class="fas fa-microscope"></i>  Expertises, actes et symptômes</strong></pre>
+        <ul><span class = "span1" style = "margin:10px">Pédicurie</span>
+        <span class = "span1" style = "margin:10px">Orthoplastie</span>
+        <span class = "span1" style = "margin:10px">Podologique</span>
+        <span class = "span1" style = "margin:10px">Orthopédiques</span>
+        <u id="Carte"></u>
+        </ul>
+      </div>
+  </div>
+</div>
+
+
+<!-- Carte -->
+<div class = "card">
+  <div class="w3-row">
+    <iframe style = "float:right" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2869.456580766978!2d4.413013714973136!3d44.01195857911063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b5b55f73a6657b%3A0x350f0b67015b7578!2s4%20Avenue%20Georges%20Chauvin%2C%2030700%20Uz%C3%A8s%2C%20France!5e0!3m2!1sen!2sus!4v1585288494292!5m2!1sen!2sus" width="auto" height="400" frameborder="0" style="border:0;" aria-hidden="false" tabindex="0"></iframe>
+    <div class="w3-twothird w3-container">
+      <h1>Carte et Informations d'accès</h1>
+      <hr class="solid">
+      <p>4 Avenue Georges Chauvin, 30700 Uzès</p>
+
+      <p><strong><u>Informations pratiques</u></strong>
+      <br>1er étage avec ascenseur
+      <br>Accès handicapé
+      <br>Parking gratuit
+      <br><br id = "Presentation"></p>
+    </div>
+  </div>
+</div>
+ 
+<!-- Présentation du professionnel de santé -->
+<div class = "card">
+  <div class="w3-row">
+    <div class="w3 w3-container">
+      <h1>Présentation du professionnel de santé</h1>
+      <hr class="solid">
+      <p>Le pédicure-podologue soigne les pathologies de la peau et des ongles du pied. Il réalise aussi des semelles orthopédiques et s'occupe de la rééducation des pieds et de l'équilibre du patient suite à une opération.
+      <br><br> 
+      <strong><u>Langues parlées</u></strong>
+      <br>
+      Français</p>
+      <hr class="solid">
+      
+      <p><i class="fas fa-school"></i><strong>&nbsp;&nbsp;
+        Diplômes nationaux et universitaires (et autres formations)</strong></p>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      2014: Posturologie - Connaissance et évolution Noisy le Grand </p>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      1993: Pedicure Podologue - Institut de Kinésithérapie Podologie Orthopédie (IKPO), Lille</p>       
+      
+      <p><i class="fas fa-microscope"></i><strong>&nbsp;&nbsp;&nbsp;&nbsp;Exercices en cabinet</strong></p>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      1993 - 2012: Aire sur la lys</p>
+      
+      <p><i class="fas fa-award"></i><strong>&nbsp;&nbsp;&nbsp;&nbsp;
+        Prix et distinctions</strong></p>        
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      2017: Formation de ktape - Ktape<u id = "Horairres"></u></p>
+    </div>
+  </div>
+</div>
+
+<!-- Horairres et Contacts -->
+<div class = "card"> 
+  <div  class="w3-row"> 
+    <div class="w3 w3-container">
+      <h1>Horairres et Contacts</h1>
+      <hr class="solid">
+      <p><strong><u>Ouverture du secrétariat</u></strong></p>
+      <p>Lundi: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        08h30 - 12h00, 13h30 - 18h45                  
+      <br>Mardi: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      08h30 - 12h00, 13h30 - 18h45
+      <br>Mercredi:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      08h30 - 12h00, 13h30 - 18h45
+      <br>Jeudi: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      08h30 - 12h00, 13h30 - 18h45</p>
+
+      <p><strong><u id = "Tarifs">Visites à domicile</u></strong><p>
+      <p>Oui</p>
+    </div>    
+  </div>
+</div>
+
+<!-- Tarifs -->
+<div class = "card">
+  <div class="w3-row">
+    <div class="w3-container">
+      <h1>Tarifs</h1>
+      <hr class="solid">
+      <p>Soins de pédicurie<span style="float:right;">33€</span></p>
+      <hr class="solid">
+      <p>Bilan podologique<span style="float:right;">35€</span></p>
+      <hr class="solid">
+      <p>Semelles orthopédiques<span style="float:right;">135€</span></p>
+      <hr class="solid">
+      <p>Orthoplastie<span style="float:right;">20€ à 40€</span></p>
+      <hr class="solid">
+      <p>Ongle incarné<span style="float:right;">33€</span></p>
+      <hr class="solid">
+      <p>Première consultation de podologie<span style="float:right;">0€</span></p>
+      <hr class="solid">
+      <p>Consultation de suivi de podologie<span style="float:right;">0€</span></p>
+      <hr class="solid">
+      <p>Soin de pédicurie à domicile<span style="float:right;">35€ à 42€</span></p>
+      <hr class="solid">
+      <p>Soin pédicurie diabetique grade 2 et 3<span style="float:right;">27€</span></p>
+      <br>
+      <p style = "font-size:16px">Ces honoraires vous sont communiqués à titre indicatif par le praticien. Ils peuvent varier selon le type de soins finalement réalisés en cabinet, le nombre de consultations et les actes additionnels nécessaires. En cas de dépassement des tarifs, le praticien doit en avertir préalablement le patient.</p>
+    </div>
+  </div>
+</div>
+
+  <footer id="myFooter" style="padding:15px">
+   <!-- <div class="card" style = "background-color: grey">
+      <p>Inès Allart: Pédicure-Podologue</p>
+    </div>
+
+    <div class="card">
+      <p>Website by Sanjeev Nookala</p>
+    </div>
+    -->
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+ <script>
+  if(screen.width <= 699){
+    document.location = "./index2.html"
+  }
+</script>
+  
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
