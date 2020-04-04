@@ -297,12 +297,21 @@
 <!-- END MAIN -->
 </div>
 
- <script>
+<script>
   
-  if (userAgent.match(/iPad/i) || userAgent.match(/iPhone/i)) {
-   // iPad or iPhone
+  
+  if (navigator.platform.match(/safari/.test( userAgent ))) {
+   // iPad
    document.location = "./index2.html"
 }
+  else if(/safari/.test( userAgent )){
+    document.location = "./index2.html"
+  }
+
+  else if(/ipad/.test( userAgent )){
+    document.location = "./index2.html"
+  }
+
   else if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
     document.location = "./index2.html"
   }
