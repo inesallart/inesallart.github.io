@@ -27,8 +27,8 @@
       margin-top: 15px;
       margin-bottom: 15px;
       border-radius: 4px;
-      width: 375px;
-      height: 250px;
+      width: 450px;
+      height: 300px;
       object-fit: cover;
       display: block;
       margin-left: auto;
@@ -233,7 +233,7 @@
 <div class = "card">
   <div class="w3-row">
     <div class="w3 w3-container">
-      <h1><span style="float:right"><i onclick = "add()" style = "color: #000000" class="fas fa-plus"></i></span>Présentation du professionnel de santé</h1>
+      <h1><span style="float:right"><i id = "presButton" style = "color: #000000" class="fas fa-plus"></i></span>Présentation du professionnel de santé</h1>
       <hr class="solid">
       <div id = "pres">
         <p>Le pédicure-podologue soigne les pathologies de la peau et des ongles du pied. Il réalise aussi des semelles orthopédiques et s'occupe de la rééducation des pieds et de l'équilibre du patient suite à une opération.
@@ -356,11 +356,9 @@ function w3_open() {
 </script>
 
 <script type="text/javascript"> 
-  
-     document.getElementById("pres").onclick = add() { 
-          document.getElementById("pres").style.display = "none"; 
+  document.getElementById("presButton").onclick = function() { 
+        document.getElementById("pres").style.display = "none"; 
       } 
-  
 </script>
 
 </body>
