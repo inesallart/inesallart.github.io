@@ -361,12 +361,22 @@ function w3_open() {
 
 <script type="text/javascript"> 
   document.getElementById("presButton").onclick = function() { 
-        document.getElementById("pres").style.display = "none"; 
-      } 
+      if(document.getElementById("pres").style.display == "none"){  
+        document.getElementById("pres").style.display = "inline"; 
+      }
+      else{
+        document.getElementById("pres").style.display = "none";
+      }
+    } 
 
   document.getElementById("cartButton").onclick = function() { 
-        document.getElementById("cart").style.display = "none"; 
+      if(document.getElementById("cart").style.display == "none"){
+        document.getElementById("cart").style.display = "block"; 
       }
+      else{
+        document.getElementById("cart").style.display = "none";
+      }
+    }
 
   document.getElementById("hoursButton").onclick = function() { 
         document.getElementById("hours").style.display = "none"; 
