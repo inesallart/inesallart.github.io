@@ -282,7 +282,7 @@
       <br>Jeudi: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       08h30 - 12h00, 13h30 - 18h45</p>
 
-      <p><strong><u id = "Tarifs">Visites à domicile</u></strong><p>
+      <p><strong><u>Visites à domicile</u></strong><p>
       <p>Oui</p>
       </div>
     </div>    
@@ -290,7 +290,7 @@
 </div>
 
 <!-- Tarifs -->
-<div class = "card">
+<div id = "Tarifs" class = "card">
   <div class="w3-row">
     <div class="w3-container">
       <h1>Tarifs</h1>
@@ -362,7 +362,7 @@ function w3_open() {
 <script type="text/javascript"> 
   document.getElementById("presButton").onclick = function() { 
       if(document.getElementById("pres").style.display == "none"){  
-        document.getElementById("pres").style.display = "inline"; 
+        document.getElementById("pres").style.display = "block"; 
       }
       else{
         document.getElementById("pres").style.display = "none";
@@ -379,7 +379,11 @@ function w3_open() {
     }
 
   document.getElementById("hoursButton").onclick = function() { 
-        document.getElementById("hours").style.display = "none"; 
+      if(document.getElementById("hours").style.display == "none"){
+        document.getElementById("hours").style.display = "block"; 
+      }
+      else{
+        document.getElementById("hours").style.display = "none"
       }    
 </script>
 
