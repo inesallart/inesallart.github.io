@@ -27,8 +27,8 @@
       margin-top: 15px;
       margin-bottom: 15px;
       border-radius: 4px;
-      width: 450px;
-      height: 300px;
+      width: 375px;
+      height: 250px;
       object-fit: cover;
       display: block;
       margin-left: auto;
@@ -216,8 +216,9 @@
 <div class = "card">
   <div class="w3-row">
     <div class="w3-twothird w3-container">
-      <h1>Carte et Informations d'accès</h1>
+      <h1><span style="float:right"><i id = "cartButton" style = "color: #000000" class="fas fa-plus"></i></span>Carte et Informations d'accès</h1>
       <hr class="solid">
+      <div id = "cart">
       <a href="https://goo.gl/maps/GBcbvNoQ5WA9TdtM9"  title="Prenez votre rendez-vous en ligne">4 Avenue Georges Chauvin, 30700 Uzès</a>
 
       <p><strong><u>Informations pratiques</u></strong>
@@ -225,6 +226,7 @@
       <br>Accès handicapé
       <br>Parking gratuit
       <br><br id = "Presentation"></p>
+      </div>
     </div>
   </div>
 </div>
@@ -267,8 +269,9 @@
 <div class = "card"> 
   <div  class="w3-row"> 
     <div class="w3 w3-container">
-      <h1>Horairres et Contacts</h1>
+      <h1><span style="float:right"><i id = "hoursButton" style = "color: #000000" class="fas fa-plus"></i></span>Horairres et Contacts</h1>
       <hr class="solid">
+      <div id = "hours">
       <p><strong><u>Ouverture du secrétariat</u></strong></p>
       <p>Lundi: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         08h30 - 12h00, 13h30 - 18h45                  
@@ -281,6 +284,7 @@
 
       <p><strong><u id = "Tarifs">Visites à domicile</u></strong><p>
       <p>Oui</p>
+      </div>
     </div>    
   </div>
 </div>
@@ -359,6 +363,14 @@ function w3_open() {
   document.getElementById("presButton").onclick = function() { 
         document.getElementById("pres").style.display = "none"; 
       } 
+
+  document.getElementById("cartButton").onclick = function() { 
+        document.getElementById("cart").style.display = "none"; 
+      }
+
+  document.getElementById("hoursButton").onclick = function() { 
+        document.getElementById("hours").style.display = "none"; 
+      }    
 </script>
 
 </body>
